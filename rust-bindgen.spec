@@ -18,6 +18,8 @@ BuildRequires:	rpmbuild(macros) >= 2.004
 BuildRequires:	rust >= 1.57.0
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
+# dynamically loaded
+Requires:	clang-libs
 ExclusiveArch:	%{rust_arches}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
