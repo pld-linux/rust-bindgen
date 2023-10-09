@@ -1,17 +1,17 @@
 Summary:	Automatically generates Rust FFI bindings to C (and some C++) libraries
 Name:		rust-bindgen
-Version:	0.63.0
+Version:	0.68.1
 Release:	1
 License:	BSD
 Group:		Development/Tools
 Source0:	https://github.com/rust-lang/rust-bindgen/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	f1c1e67e7433f0559afc369f8246c5ae
+# Source0-md5:	64b5f012317e7152cf13f8ee4fee2555
 # cd rust-bindgen-%{version}
 # cargo vendor
 # cd ..
 # tar cJf rust-bindgen-crates-%{version}.tar.xz cbindgen-%{version}/{vendor,Cargo.lock}
 Source1:	%{name}-crates-%{version}.tar.xz
-# Source1-md5:	7c12170fa55f82f213133fb25b8c558f
+# Source1-md5:	a2b65da1bb62eae712eb2d369b1a290b
 URL:		https://rust-lang.github.io/rust-bindgen/
 BuildRequires:	cargo
 BuildRequires:	rpmbuild(macros) >= 2.004
