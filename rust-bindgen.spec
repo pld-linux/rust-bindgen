@@ -1,4 +1,5 @@
-Summary:	Automatically generates Rust FFI bindings to C (and some C++) libraries
+Summary:	Generating Rust FFI bindings to C (and some C++) libraries
+Summary(pl.UTF-8):	Generowanie wiązań Rust FFI do bibliotek C (i niektórych C++)
 Name:		rust-bindgen
 Version:	0.68.1
 Release:	1
@@ -26,6 +27,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 bindgen automatically generates Rust FFI bindings to C (and some C++)
 libraries.
+
+%description -l pl.UTF-8
+bindgen automatycznie generuje wiązania Rust FFI do bibliotek C (i
+niektórych C++).
 
 %prep
 %setup -q -a1
