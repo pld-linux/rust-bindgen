@@ -15,10 +15,11 @@ Source1:	%{name}-crates-%{version}.tar.xz
 # Source1-md5:	5c8791e98ff44157787908a3f9060c76
 URL:		https://rust-lang.github.io/rust-bindgen/
 BuildRequires:	cargo
-BuildRequires:	rpmbuild(macros) >= 2.004
+BuildRequires:	rpmbuild(macros) >= 2.050
 BuildRequires:	rust >= 1.57.0
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
+%{?rust_req}
 # dynamically loaded
 Requires:	clang-libs
 ExclusiveArch:	%{rust_arches}
