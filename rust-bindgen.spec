@@ -5,7 +5,7 @@ Version:	0.72.1
 Release:	1
 License:	BSD
 Group:		Development/Tools
-Source0:	https://github.com/rust-lang/rust-bindgen/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/rust-lang/rust-bindgen/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	49be3303557d072ce4c6987b2989be3c
 # cd rust-bindgen-%{version}
 # cargo vendor
